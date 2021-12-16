@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>XTREND DRIP SHOP</title>
+       <link rel="stylesheet"  href="styles.css">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   </head>
+   <body>
+
+         <div class="container">
+   	    <div class="menu-bar">
+   	    	<ul >
+
+   	    		<li class="active"> <a href="#"><i class="fa fa-home"></i>Home </a></li>
+   	    		<li><a href="#"> <i class="fa fa-product-hunt"></i>Products</a>
+   	    		<li><a href="#"> <i class="fa fa-clone"></i>Services</a>
+               <li><a href="#"> <i class="fa fa-user"></i>About Us</a>
+   	    		<li><a href="#"> <i class="fa fa-phone"></i>Contact</a>
+   	    		</li>
+   	    	</ul>
+   	    </div>
+          <hr>
+      
+          <h1 id="myname">Welcome To</h1> <br>
+   	   <h3 id="myname">URBAN XTREND</h3>
+   	   <form id="form"> 
+   	   	   <input type="Search" id="query" placeholder="Search">
+
+   	   	   <button id="btnsearch">Search</button>
+   	   	 
+   	   </form>
+
+         <div >
+            <h2><center>Shop With Us in three Simple Steps!</center></h2>
+            <br>
+            <ul>
+               <li id="order"><big><b>Make An Order</b></big></li>
+                 <center> <img src="f.jfif" width="600" height="400" alt="making order online"></center>
+               <li id="delivery"><big><b>Choose Method of Payment</b></big></li>
+               <center><img src="j.jfif" width="600" height="400" alt="Choosing method of Payment"></center>
+               <li id="pay"><big><b>Schedule Delivery</b></big></li>
+               <center><img src="8.jfif" width="600" height="400" alt="Schedule delivery"></center>
+            </ul>
+
+         </div>
+         <div class="products">
+            <h2 style="color: darkslateblue;" class="orderitems">Place your Order Now!</h2>
+            <br><br><br>
+             <ul class="itemsorder-grid">
+              
+         <span>
+              <a id="cloth"> <img src="jbj.jfif" width="300" height="300"></a>
+               
+               
+               <li>Men shirt at Ksh.800
+                  <h4>Order Now!</h4>
+                  <li>Choose Method of Payment
+                     
+                      <select> 
+                        <option>M-pesa payment</option>
+                        <option>Card payment</option>
+                        <option>Cash payment</option>
+                      </select>
+         
+
+                  </li>
+                  <li>Select the day  you ordered the item
+                     <select> 
+                        <option>Monday</option>
+                        <option>Tuesday</option>
+                        <option>Wednesday</option>
+                        <option>Thursday</option>
+                        <option>Friday</option>
+                        <option>Saturday</option>
+                     </select>
+
+
+                  </li>
+                   <h5>Enter your details Below to complete placing your order:</h5>
+                  <form onsubmit="alert('Your order has been received is being proccessed. You will be notified via the email you have provided.Thanks for shopping with us.'); return false">
+                     <label for="email">Email:</label><br>
+                     <input type="text" id="email" name="email"><br>
+                     <label for="phone">Phone:</label><br>
+                     <input type="number" id="phone" name="phone"><br>
+                     <button  type="submit" id="submit-button" value="Submit">Submit Order</button>
+
+                  </form>
+
+               </li>
+               
+         </span>
+           
+
+         <span>
+               <img src="jl.jfif" width="300" height="300">
+               <li>Ksh.1,300
+                    <h4>Order Now!</h4>
+                  <li>Choose Method of Payment
+                     
+                      <select> 
+                        <option>M-pesa payment</option>
+                        <option>Card payment</option>
+                        <option>Cash payment</option>
+                      </select>
+         
+
+                  </li>
+                  <li>Select the day you ordered the item
+                     <select> 
+                        <option>Monday</option>
+                        <option>Tuesday</option>
+                        <option>Wednesday</option>
+                        <option>Thursday</option>
+                        <option>Friday</option>
+                        <option>Saturday</option>
+                     </select>
+
+
+                  </li>
+                   <h5>Enter your details Below to complete placing your order:</h5>
+                  <form id="frm1" onsubmit="alert('Your order has been received is being proccessed. You will be notified via the email you have provided.Thanks for shopping with us.'); return false">
+                     <label for="email">Email:</label><br>
+                     <input type="text" id="email" name="email"><br>
+                     <label for="phone">Phone:</label><br>
+                     <input type="number" id="phone" name="phone"><br>
+                     <button onclick="myfunction()" type="submit" id="orderplaced" value="Submit">Submit Order</button>
+
+                  </form>
+               </li>
+         </span>
+
+
+         <span>
+               <img src="k.jfif" width="300" height="300">
+               <li>Cabbage Ksh.50 each</li>
+                  <h4>Order Now!</h4>
+                  <li>Choose Method of Payment
+                     
+                      <select> 
+                        <option>M-pesa payment</option>
+                        <option>Card payment</option>
+                        <option>Cash payment</option>
+                      </select>
+         
+
+                  </li>
+                  <li>Select the day you ordered the item
+                     <select> 
+                        <option>Monday</option>
+                        <option>Tuesday</option>
+                        <option>Wednesday</option>
+                        <option>Thursday</option>
+                        <option>Friday</option>
+                        <option>Saturday</option>
+                     </select>
+
+
+                  </li>
+                   <h5>Enter your details Below to complete placing your order:</h5>
+                  <form onsubmit="alert('Your order has been received is being proccessed. You will be notified via the email you have provided.Thanks for shopping with us.'); return false">
+                     <label for="email">Email:</label><br>
+                     <input type="text" id="email" name="email"><br>
+                     <label for="phone">Phone:</label><br>
+                     <input type="number" id="phone" name="phone"><br>
+                     <input type="submit" id="orderplaced1" value="Submit Order">
+
+                  </form>
+
+          </span>
+          
+          <span>        
+               <img src="kh.jfif" width="300" height="300">
+               <li>Ksh.3,000</li>
+                   <h4>Order Now!</h4>
+                  <li>Choose Method of Payment
+                     
+                      <select> 
+                        <option>M-pesa payment</option>
+                        <option>Card payment</option>
+                        <option>Cash payment</option>
+                      </select>
+         
+
+                  </li>
+                  <li>Select the day you ordered the item
+                     <select> 
+                        <option>Monday</option>
+                        <option>Tuesday</option>
+                        <option>Wednesday</option>
+                        <option>Thursday</option>
+                        <option>Friday</option>
+                        <option>Saturday</option>
+                     </select>
+
+
+                  </li>
+                   <h5>Enter your details Below to complete placing your order:</h5>
+                  <form onsubmit="alert('Your order has been received is being proccessed. You will be notified via the email you have provided.Thanks for shopping with us.'); return false">
+                     <label for="email">Email:</label><br>
+                     <input type="text" id="email" name="email"><br>
+                     <label for="phone">Phone:</label><br>
+                     <input type="number" id="phone" name="phone"><br>
+                     <input type="submit" id="orderplaced2" value="Submit Order">
+
+                  </form>
+
+          </span>
+          
+          <span>       
+               <img src="l.jfif" width="300" height="300">
+               <li>Ksh. 30</li>
+                   <h4>Order Now!</h4>
+                  <li>Choose Method of Payment
+                     
+                      <select> 
+                        <option>M-pesa payment</option>
+                        <option>Card payment</option>
+                        <option>Cash payment</option>
+                      </select>
+         
+
+                  </li>
+                  <li>Select the day you ordered the item
+                     <select> 
+                        <option>Monday</option>
+                        <option>Tuesday</option>
+                        <option>Wednesday</option>
+                        <option>Thursday</option>
+                        <option>Friday</option>
+                        <option>Saturday</option>
+                     </select>
+
+
+                  </li>
+                   <h5>Enter your details Below to complete placing your order:</h5>
+                  <form onsubmit="alert('Your order has been received is being proccessed. You will be notified via the email you have provided.Thanks for shopping with us.'); return false">
+                     <label for="email">Email:</label><br>
+                     <input type="text" id="email" name="email"><br>
+                     <label for="phone">Phone:</label><br>
+                     <input type="number" id="phone" name="phone"><br>
+                     <input type="submit" id="orderplaced3" value="Submit Order">
+
+                  </form>
+
+           </span>
+           <span>         
+               <a id="sweet" ><img src="i1.jfif" width="300" height="300"></a>
+               <li>Ks. 300 each</li>
+                <h4>Order Now!</h4>
+                  <li>Choose Method of Payment
+                     
+                      <select> 
+                        <option>M-pesa payment</option>
+                        <option>Card payment</option>
+                        <option>Cash payment</option>
+                      </select>
+         
+
+                  </li>
+                  <li>Select the day you ordered the item
+                     <select> 
+                        <option>Monday</option>
+                        <option>Tuesday</option>
+                        <option>Wednesday</option>
+                        <option>Thursday</option>
+                        <option>Friday</option>
+                        <option>Saturday</option>
+                     </select>
+
+
+                  </li>
+                   <a id="offer"><h5>Enter your details Below to complete placing your order:</h5></a>
+                  <form onsubmit="alert('Your order has been received is being proccessed. You will be notified via the email you have provided.Thanks for shopping with us.'); return false">
+                     <label for="email">Email:</label><br>
+                     <input type="text" id="email" name="email"><br>
+                     <label for="phone">Phone:</label><br>
+                     <input type="number" id="phone" name="phone"><br>
+                     <input type="submit" id="orderplaced4" value="Submit Order">
+
+                  </form>
+
+            </span>
+            
+            <span>      
+                <a id="laptop"><img src="i2.jfif" width="300" height="300"></a>
+               <li>Lenovo laptop at Ksh. 40,500</li>
+                  <h4>Order Now!</h4>
+                  <li>Choose Method of Payment
+                     
+                      <select> 
+                        <option>M-pesa payment</option>
+                        <option>Card payment</option>
+                        <option>Cash payment</option>
+                      </select>
+         
+
+                  </li>
+                  <li>Select the day you ordered the item
+                     <select> 
+                        <option>Monday</option>
+                        <option>Tuesday</option>
+                        <option>Wednesday</option>
+                        <option>Thursday</option>
+                        <option>Friday</option>
+                        <option>Saturday</option>
+                     </select>
+
+
+                  </li>
+                   <h5>Enter your details Below to complete placing your order:</h5>
+                  <form onsubmit="alert('Your order has been received is being proccessed. You will be notified via the email you have provided.Thanks for shopping with us.'); return false">
+                     <label for="email">Email:</label><br>
+                     <input type="text" id="email" name="email"><br>
+                     <label for="phone">Phone:</label><br>
+                     <input type="number" id="phone" name="phone"><br>
+                     <input type="submit" id="orderplaced5" value="Submit Order">
+
+                  </form>
+
+             </span>
+             
+             <span>     
+               <img src="i3.jfif" width="300" height="300">
+               <li>Iphone at Ksh. 28,000</li>
+                   <h4>Order Now!</h4>
+                  <li>Choose Method of Payment
+                     
+                      <select> 
+                        <option>M-pesa payment</option>
+                        <option>Card payment</option>
+                        <option>Cash payment</option>
+                      </select>
+         
+
+                  </li>
+                  <li>Select the day you ordered the item
+                     <select> 
+                        <option>Monday</option>
+                        <option>Tuesday</option>
+                        <option>Wednesday</option>
+                        <option>Thursday</option>
+                        <option>Friday</option>
+                        <option>Saturday</option>
+                     </select>
+
+
+                  </li>
+                   <h5>Enter your details Below to complete placing your order:</h5>
+                  <form onsubmit="alert('Your order has been received is being proccessed. You will be notified via the email you have provided.Thanks for shopping with us.'); return false">
+                     <label for="email">Email:</label><br>
+                     <input type="text" id="email" name="email"><br>
+                     <label for="phone">Phone:</label><br>
+                     <input type="number" id="phone" name="phone"><br>
+                     <input type="submit" id="orderplaced6" value="Submit Order">
+
+                  </form>
+
+            </span>
+
+
+            <span>
+               <a id="sofa"><img src="i4.jfif" width="300" height="300"></a>
+               <li>Ksh. 42,000</li>
+                  <h4>Order Now!</h4>
+                  <li>Choose Method of Payment
+                     
+                      <select> 
+                        <option>M-pesa payment</option>
+                        <option>Card payment</option>
+                        <option>Cash payment</option>
+                      </select>
+         
+
+                  </li>
+                  <li>Select the day you ordered the item
+                     <select> 
+                        <option>Monday</option>
+                        <option>Tuesday</option>
+                        <option>Wednesday</option>
+                        <option>Thursday</option>
+                        <option>Friday</option>
+                        <option>Saturday</option>
+                     </select>
+
+
+                  </li>
+                   <h5>Enter your details Below to complete placing your order:</h5>
+                  <form onsubmit="alert('Your order has been received is being proccessed. You will be notified via the email you have provided.Thanks for shopping with us.'); return false">
+                     <label for="email">Email:</label><br>
+                     <input type="text" id="email" name="email"><br>
+                     <label for="phone">Phone:</label><br>
+                     <input type="number" id="phone" name="phone"><br>
+                     <input type="submit" id="orderplaced7" value="Submit Order">
+
+                  </form>
+
+            </span>
+
+            <span>
+               <img src="i5.jfif" width="300" height="300">
+               <li>Men shoes at Ksh. 1,500</li>
+                   <h4>Order Now!</h4>
+                  <li>Choose Method of Payment
+                     
+                      <select> 
+                        <option>M-pesa payment</option>
+                        <option>Card payment</option>
+                        <option>Cash payment</option>
+                      </select>
+         
+
+                  </li>
+                  <li>Select the day you ordered the item
+                     <select> 
+                        <option>Monday</option>
+                        <option>Tuesday</option>
+                        <option>Wednesday</option>
+                        <option>Thursday</option>
+                        <option>Friday</option>
+                        <option>Saturday</option>
+                     </select>
+
+
+                  </li>
+                   <h5>Enter your details Below to complete placing your order:</h5>
+                  <form onsubmit="alert('Your order has been received is being proccessed. You will be notified via the email you have provided.Thanks for shopping with us.'); return false">
+                     <label for="email">Email:</label><br>
+                     <input type="text" id="email" name="email"><br>
+                     <label for="phone">Phone:</label><br>
+                     <input type="number" id="phone" name="phone"><br>
+                     <input type="submit" id="orderplaced8" value="Submit Order">
+
+                  </form>
+
+            </span>
+
+            <span>
+               <img src="i6.jfif" width="300" height="300">
+               <li>Ksh. 3,000</li>
+                  <h4>Order Now!</h4>
+                  <li>Choose Method of Payment
+                     
+                      <select> 
+                        <option>M-pesa payment</option>
+                        <option>Card payment</option>
+                        <option>Cash payment</option>
+                      </select>
+         
+
+                  </li>
+                  <li>Select the day you ordered the item
+                     <select> 
+                        <option>Monday</option>
+                        <option>Tuesday</option>
+                        <option>Wednesday</option>
+                        <option>Thursday</option>
+                        <option>Friday</option>
+                        <option>Saturday</option>
+                     </select>
+
+
+                  </li>
+                   <h5>Enter your details Below to complete placing your order:</h5>
+                  <form onsubmit="alert('Your order has been received is being proccessed. You will be notified via the email you have provided.Thanks for shopping with us.'); return false">
+                     <label for="email">Email:</label><br>
+                     <input type="text" id="email" name="email"><br>
+                     <label for="phone">Phone:</label><br>
+                     <input type="number" id="phone" name="phone"><br>
+                     <input type="submit" id="orderplaced9" value="Submit Order">
+
+                  </form>
+
+            </span>
+
+            <span>
+               <img src="i7.jfif" width="300" height="300">
+               <li>Ksh. 2,000</li>
+                   <h4>Order Now!</h4>
+                  <li>Choose Method of Payment
+                     
+                      <select> 
+                        <option>M-pesa payment</option>
+                        <option>Card payment</option>
+                        <option>Cash payment</option>
+                      </select>
+         
+
+                  </li>
+                  <li>Select the day you ordered the item
+                     <select> 
+                        <option>Monday</option>
+                        <option>Tuesday</option>
+                        <option>Wednesday</option>
+                        <option>Thursday</option>
+                        <option>Friday</option>
+                        <option>Saturday</option>
+                     </select>
+
+
+                  </li>
+                   <h5>Enter your details Below to complete placing your order:</h5>
+                  <form onsubmit="alert('Your order has been received is being proccessed. You will be notified via the email you have provided.Thanks for shopping with us.'); return false">
+                     <label for="email">Email:</label><br>
+                     <input type="text" id="email" name="email"><br>
+                     <label for="phone">Phone:</label><br>
+                     <input type="number" id="phone" name="phone"><br>
+                     <input type="submit" id="orderplaced10" value="Submit Order">
+
+                  </form>
+
+            </span>
+
+            <span>
+               <img src="i8.jfif" width="300" height="300">
+               <li>Mouse at Ksh. 400</li>
+                   <h4>Order Now!</h4>
+                  <li>Choose Method of Payment
+                     
+                      <select> 
+                        <option>M-pesa payment</option>
+                        <option>Card payment</option>
+                        <option>Cash payment</option>
+                      </select>
+         
+
+                  </li>
+                  <li>Select the day you ordered the item
+                     <select> 
+                        <option>Monday</option>
+                        <option>Tuesday</option>
+                        <option>Wednesday</option>
+                        <option>Thursday</option>
+                        <option>Friday</option>
+                        <option>Saturday</option>
+                     </select>
+
+
+                  </li>
+                   <h5>Enter your details Below to complete placing your order:</h5>
+                  <form onsubmit="alert('Your order has been received is being proccessed. You will be notified via the email you have provided.Thanks for shopping with us.'); return false">
+                     <label for="email">Email:</label><br>
+                     <input type="text" id="email" name="email"><br>
+                     <label for="phone">Phone:</label><br>
+                     <input type="number" id="phone" name="phone"><br>
+                     <input type="submit" id="orderplaced11" value="Submit Order">
+
+                  </form>
+
+            </span>
+
+            <span>
+               <img src="i9.jfif" width="300" height="300">
+               <li>Ksh. 300</li>
+                  <h4>Order Now!</h4>
+                  <li>Choose Method of Payment
+                     
+                      <select> 
+                        <option>M-pesa payment</option>
+                        <option>Card payment</option>
+                        <option>Cash payment</option>
+                      </select>
+         
+
+                  </li>
+                  <li>Select the day you oredered the item
+                     <select> 
+                        <option>Monday</option>
+                        <option>Tuesday</option>
+                        <option>Wednesday</option>
+                        <option>Thursday</option>
+                        <option>Friday</option>
+                        <option>Saturday</option>
+                     </select>
+
+                   
+                  </li>
+                   <h5>Enter your details Below to complete placing your order:</h5>
+                  <form onsubmit="alert('Your order has been received is being proccessed. You will be notified via the email you have provided.Thanks for shopping with us.'); return false;">
+                     <label for="email">Email:</label><br>
+                     <input type="text" id="email" name="email"><br>
+                     <label for="phone">Phone:</label><br>
+                     <input type="number" id="phone" name="phone"><br>
+                     <input type="submit" id="orderplaced12" value="Submit Order">
+
+                  </form>
+            </span>
+    
+
+            </ul>
+         </div>
+         <br><br><br><br>
+         <center> <h2>Why Shop With Us</h2></center>
+          <br><br><br> 
+       <div class="reasons-grid"> 
+         <span>
+           <h3>Easy Payment</h3>
+           <p>The procedure of making payment in our online shop consists of very simple steps.</p>
+           <img src="i10.jfif" width="300" height="200">
+        </span>
+
+      <span>  
+          <h3>Quality You Can Trust</h3> 
+          <p>We offer high quality goods and services at relatively low prices that suits your pockets. We ensure that the goods and services are in the required standards. </p>
+          <img src="i11.jfif" width="300" height="200">
+      </span>
+          <br>
+      <span> 
+          <h3>Knowledgeable And Friendly Customer Experience Team</h3>
+          <p>Your order is taken, processed and made right in our store! We always want to ensure your satisfaction, which is why we stand by our "love it " gurantee. </p>
+          <img src="i12.jfif" width="300" height="200">
+      </span>
+          <br>
+      <span>
+          <h3>Delivery That Saves You Time</h3>
+          <p>Delivery of ordered items is done within 24 hours.</p>
+          <img src="i13.jfif" width="300" height="200">
+      </span>
+     </div>
+   
+	<footer class="usabout">
+      <hr>
+      <div class="about-grid">
+      <h2 style="color: darkgoldenrod;">ABOUT US</h2>
+         <div class="missin">
+         <h4 style="color: red;"> <a id="mine"> Mission </a></h4>
+           <p>Our mssion is to bring into the market the trendy and most affordable products to our clients.</p>
+         </div>
+            <div class="vissin">
+         <h4 style="color: red;">Vision</h4>
+           
+           <p>Our vision is to deliver the best to the clients.</p>
+            </div>
+         
+      </div>
+      <div>
+      <h3 style="color: darkgoldenrod;" class="contacts">CONTACTS</h3>
+        
+      <div class="lins">
+         <ul class="linksus">
+            <li><a href="https//www.twtter.com"> <i class="fa fa-twitter"></i>Twitter</a></li><br>
+            <li><a href="https//www.Facebook.com"> <i class="fa fa-facebook-official"></i>Facebook</a></li><br>
+            <li><a href="https//www.instagram.com"><i class="fa fa-instagram"></i>Instagram</a></li><br>
+            <li><a href="https//www.WhatsApp.com"><i class="fa fa-whatsapp"></i>WhatsApp</a></li><br>
+         </ul>
+
+      </div>
+
+   </footer>
+  </div>
+  <script src="script.js"></script>
+   </body>	
+</html>
